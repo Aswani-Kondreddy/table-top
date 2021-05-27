@@ -1,6 +1,9 @@
 const initailState={
     data:'',
 }
+
+
+// create reducer
 const rootReducer = (state=initailState,action)=>{
     switch(action.type){
         case 'ADD_DATA':
